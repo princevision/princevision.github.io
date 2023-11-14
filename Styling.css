@@ -1,0 +1,100 @@
+html ,body {
+	margin: 0;
+	font-family: arieal;
+    height: 100vh;
+}
+.pvlogo {width: 91px;
+    height: 81px;
+    margin-left: 190%;
+    margin-top: 100%;
+}
+
+.home { background-color: #c4f101;
+}
+
+.left {
+    display: flex;
+    flex-flow: row;
+    margin-left: 10%;
+}
+img {
+    width: 420px;
+    height: 555px;
+    margin-top: -1%;
+    margin-left: 10%;
+}
+.goldenkey {width: 400px;
+    height: 200px;
+    margin-top: -10%;
+
+}
+.insta {width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 40%;
+    margin-top: -10%;
+}
+.twitter {width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 33%;
+    margin-top: -10%;
+}
+.linkedin {width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 36%;
+    margin-top: -10.4%;
+}
+.aboutme {float: right;
+    margin-top: -11%;
+    margin-right: 23%;   
+}
+.line {height: 1px;
+    background-color: #000000; 
+    margin-top: 10%;
+}
+.secondline {height: 1px;
+    background-color: #000000;
+    margin-top: 90%;
+}
+.navigation-bar {float: right;
+    margin-top: -36.5%;
+    margin-right: 33.5%;
+
+}
+.navigation-bar ul li a:hover{
+    color: #ff3231;
+}
+
+ul {list-style-type: none;
+}
+a {text-decoration: none;
+    color: #000000;
+}
+li {font-size: x-large;
+}
+@media (max-width: 600px) {
+    .wrapper-main {
+        width: 100%;
+    }
+    .aboutme {margin: 5%;
+    }
+    .navigation-bar {margin-top: -88%;
+    }
+    .socialhome {margin: 50%;
+    }
+    .insta {width: 30px;
+        height: 30px;
+       float: left;
+    
+    }
+    .twitter {width: 30px;
+        height: 30px;
+        float: left;
+    }
+    .linkedin {width: 40px;
+        height: 40px;
+        float: left;
+    }
+}
