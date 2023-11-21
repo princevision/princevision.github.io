@@ -14,7 +14,6 @@ html ,body {
 
 .left {
     display: flex;
-    flex-flow: row;
     margin-left: 12%;
 }
 img {
@@ -82,6 +81,9 @@ li {font-size: x-large;
     margin-top: -15%;
 }
 
+
+
+
 /* Phones */
 /* Portrait and Landscape */
 @media only screen 
@@ -120,7 +122,8 @@ li {font-size: x-large;
 } */
 
 /* Styles for small screens (phones) */
-@media only screen and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
     .wrapper-main {
         width: 100%;
     }
@@ -184,39 +187,3 @@ li {font-size: x-large;
     .secondline {margin-top: 80%;
     } 
   }
-
-  /* Styles for large screens (desktops and laptops) */
-@media only screen and (min-width: 1024px) {
-    .wrapper-main {
-        margin-left: -5%;
-        width: 100%;
-    }
-    .aboutme {margin-top:%;
-       margin-right: 5%;
-    }
-    .navigation-bar {margin-top: -45%;
-        margin-right: 17%;
-    }
-    .socialhome {margin-top: -45%;
-        margin-right: -22%;
-
-    }
-    .insta {width: 30px;
-        height: 30px;
-        
-    
-    }
-    .twitter {width: 30px;
-        height: 30px;
-        
-        
-    }
-    .linkedin {width: 40px;
-        height: 40px;
-        
-    }
-    .secondline {margin-top: 80%;
-    } 
-  }
-  
-
