@@ -74,27 +74,142 @@ a {text-decoration: none;
 }
 li {font-size: x-large;
 }
-@media (max-width: 600px) {
+
+/* Laptops */
+@media only screen (min-width: 1200px) and (max-device-width: 1600px)  {
     .wrapper-main {
         width: 100%;
     }
-    .aboutme {margin: 5%;
+    .aboutme {margin-top: -10%;
+       margin-right: 22%;
     }
-    .navigation-bar {margin-top: -88%;
+    .navigation-bar {margin-top: -36%;
+        margin-right: 32%;
     }
-    .socialhome {margin: 50%;
+    .socialhome {margin-top: 1%;
+        margin-left: 2%
     }
     .insta {width: 30px;
         height: 30px;
-       float: left;
     
     }
     .twitter {width: 30px;
         height: 30px;
-        float: left;
     }
     .linkedin {width: 40px;
         height: 40px;
-        float: left;
+    }
+    .secondline {margin-top: 90%;
     }
 }
+
+/* Phones */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .wrapper-main {
+        width: 100%;
+    }
+    .aboutme {margin-top: 2%;
+       margin-left: 10%;
+    }
+    .navigation-bar {margin-top: -75%;
+        margin-right: 32%;
+    }
+    .socialhome {margin-top: 160%;
+        margin-right: 25%;
+
+    }
+    .insta {width: 30px;
+        height: 30px;
+        margin-right: 55%;
+    
+    }
+    .twitter {width: 30px;
+        height: 30px;
+        margin-right: 30%;
+        
+    }
+    .linkedin {width: 40px;
+        height: 40px;
+        margin-right: 42%;
+    }
+    .secondline {margin-top: 110%;
+    }
+}
+
+/* iPhones X> */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .wrapper-main {
+        width: 100%;
+    }
+    .aboutme {margin-top: 2%;
+       margin-left: 10%;
+    }
+    .navigation-bar {margin-top: -86%;
+        
+    }
+    .socialhome {margin-top: 170%;
+        margin-right: 25%;
+
+    }
+    .insta {width: 30px;
+        height: 30px;
+        margin-right: 55%;
+    
+    }
+    .twitter {width: 30px;
+        height: 30px;
+        margin-right: 30%;
+        
+    }
+    .linkedin {width: 40px;
+        height: 40px;
+        margin-right: 42%;
+    }
+    .secondline {margin-top: 125%;
+    }
+}
+
+/* Tablet */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .wrapper-main {
+        width: 100%;
+    }
+    .aboutme {margin-top: 2%;
+       margin-right: 45%;
+    }
+    .navigation-bar {margin-top: -40%;
+        margin-right: 60%;
+        
+    }
+    .socialhome {margin-top: 74%;
+        margin-right: 45%;
+
+    }
+    .insta {width: 30px;
+        height: 30px;
+        margin-right: 55%;
+    
+    }
+    .twitter {width: 30px;
+        height: 30px;
+        margin-right: 30%;
+        
+    }
+    .linkedin {width: 40px;
+        height: 40px;
+        margin-right: 42%;
+    }
+    .secondline {margin-top: 90%;
+    }
+}
+
