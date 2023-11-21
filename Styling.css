@@ -61,8 +61,8 @@ img {
 }
 
 ul {list-style-type: none;
-    margin-top: -108%;
-    margin-left: -65%;
+    margin-top: -103%;
+    margin-left: -55%;
     
 }
 a {text-decoration: none;
@@ -71,7 +71,7 @@ a {text-decoration: none;
 li {font-size: x-large;
 }
 
-.rightkey {margin-right: 15%;
+.rightkey {margin-right: 20%;
   
 }
 .socialhome {
@@ -80,6 +80,7 @@ li {font-size: x-large;
     margin-right: 20%;
     margin-top: 1%;
 }
+
 
 
 /* Phones */
