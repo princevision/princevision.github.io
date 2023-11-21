@@ -11,6 +11,8 @@ html ,body {
 
 .home { background-color: #c4f101;
 }
+.wrapper-main {margin-left: 50%;
+}
 
 .left {
     display: flex;
@@ -213,38 +215,4 @@ li {font-size: x-large;
     } 
   }
   
-/* High-resolution screens (retina) */ 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (min-resolution: 192dpi) {
 
-        .wrapper-main {
-            margin: 15%;
-            width: 100%;
-        }
-        .aboutme {margin-top: -4%;
-           margin-right: 50%;
-        }
-        .navigation-bar {margin-top: -17%;
-            margin-right: 55%;
-        }
-        .socialhome {margin-top: 2.5%;
-            margin-right: 32%;
-    
-        }
-        .insta {width: 30px;
-            height: 30px;
-            
-        
-        }
-        .twitter {width: 30px;
-            height: 30px;
-            
-            
-        }
-        .linkedin {width: 40px;
-            height: 40px;
-            
-        }
-        .secondline {margin-top: 80%;
-        }  
-}
