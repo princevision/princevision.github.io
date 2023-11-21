@@ -11,19 +11,17 @@ html ,body {
 
 .home { background-color: #c4f101;
 }
-.wrapper-main {margin-left: 50%;
-}
 
 .left {
     display: flex;
     flex-flow: row;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 img {
     width: 420px;
     height: 555px;
     margin-top: -1%;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .goldenkey {width: 400px;
     height: 200px;
@@ -37,33 +35,32 @@ img {
     height: 30px; 
     margin-left: 1%;  
 }
-.linkedin {width: 50px;
-    height: 50px;
+.linkedin {width: 100px;
+    height: 100px;
     margin-left: 1%; 
+    margin-top: 5%;
 }
 .aboutme {float: right;
-    margin-top: -11%;
-    margin-right: 23%;   
+    margin-top: -16.5%;
+    margin-right: 5%;   
 }
 .line {height: 1px;
     background-color: #000000; 
-    margin-top: 10%;
+    margin-top: 6%;
 }
 .secondline {height: 1px;
     background-color: #000000;
-    margin-top: 90%;
 }
-.navigation-bar {float: left;
-    margin-left: 58%;
+.navigation-bar {float: right;
+    margin-left: 55%;
 
 }
 .navigation-bar, ul, li, a:hover{
     color: #ff3231;
-
 }
 
 ul {list-style-type: none;
-    margin-top: 68.5%;
+    margin-top: 73%;
 }
 a {text-decoration: none;
     color: #000000;
@@ -72,11 +69,11 @@ li {font-size: x-large;
 }
 
 .rightkey {margin-right: 15%;
+  
 }
-.socialhome {margin-left: 65%;  
+.socialhome {margin-top: -7%;
+    margin-left: 60%;
 }
-
-
 
 /* Phones */
 /* Portrait and Landscape */
