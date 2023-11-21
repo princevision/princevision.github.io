@@ -23,33 +23,35 @@ img {
     margin-top: -1%;
     margin-left: 12%;
 }
-.goldenkey {width: 400px;
-    height: 200px;
-    margin-top: -10%;
-
-}
 .insta {width: 30px;
     height: 30px;
+    display: flex;
+    margin-left: -28%;
+
 }
 .twitter {width: 30px;
     height: 30px; 
-    margin-left: 1%;  
+    margin: 1%;
+  
+ 
 }
-.linkedin {width: 100px;
-    height: 100px;
-    margin-left: 1%; 
-    margin-top: 5%;
+.linkedin {width: 45px;
+    height: 45px;
+    margin-top: -18.3%;
+ 
+    
 }
 .aboutme {float: right;
-    margin-top: -16.5%;
+    margin-top: -62%;
     margin-right: 5%;   
 }
 .line {height: 1px;
     background-color: #000000; 
-    margin-top: 6%;
+    margin-top:;
 }
 .secondline {height: 1px;
     background-color: #000000;
+    margin-top: 85%;
 }
 .navigation-bar {float: right;
     margin-left: 55%;
@@ -60,7 +62,9 @@ img {
 }
 
 ul {list-style-type: none;
-    margin-top: 73%;
+    margin-top: -170%;
+    margin-left: -68%;
+    
 }
 a {text-decoration: none;
     color: #000000;
@@ -71,8 +75,11 @@ li {font-size: x-large;
 .rightkey {margin-right: 15%;
   
 }
-.socialhome {margin-top: -7%;
-    margin-left: 60%;
+.socialhome {
+    display: flex;
+    float: right;
+    margin-right: 20%;
+    margin-top: -15%;
 }
 
 /* Phones */
