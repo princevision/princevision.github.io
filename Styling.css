@@ -84,21 +84,21 @@ li {font-size: x-large;
 
 /* Phones */
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .wrapper-main {
-        width: 100%;
+@media screen and (max-width: 600px) {
+   .wrapper-main {width:100%;
+    }
+    .rotman {display: none;
+    }
+    .left {margin-left: 2%;
     }
     .aboutme {margin-top: 2%;
-       margin-left: 10%;
+       margin-left: 2%;
     }
-    .navigation-bar {margin-top: -75%;
-        margin-right: 32%;
-    }
-    .socialhome {margin-top: 160%;
+    .navigation-bar {margin-top: -50%;
         margin-right: 25%;
+    }
+    .socialhome {margin-top: 6%;
+        margin-right: 30%;
 
     }
     .insta {width: 30px;
@@ -118,6 +118,7 @@ li {font-size: x-large;
     .secondline {margin-top: 110%;
     }
 } */
+
 
 /* Styles for small screens (phones) */
 
