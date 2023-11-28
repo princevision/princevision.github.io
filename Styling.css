@@ -192,9 +192,9 @@ li {font-size: x-large;
   @media screen and (min-width: 1024px) {
     .wrapper-main {width:100%;
      }
-     .rotman {margin-left: 8%;
+     .rotman {margin-left: 15%;
      }
-     .left {margin-left: 8%;
+     .left {margin-left: 15%;
      }
      .aboutme {margin-top: -70%;  
      }
