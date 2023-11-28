@@ -232,7 +232,8 @@ li {font-size: x-large;
      }
      .left {margin-left: 8%;
      }
-     .aboutme {margin-top: -55%;
+     .aboutme {margin-top: -50%;
+	       margin-right: 10%;
         
         
      }
