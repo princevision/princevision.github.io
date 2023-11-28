@@ -192,11 +192,11 @@ li {font-size: x-large;
   @media screen and (min-width: 1024px) {
     .wrapper-main {width:100%;
      }
-     .rotman {margin-left: 15%;
+     .rotman {margin-left: 1%;
      }
-     .left {margin-left: 15%;
+     .left {margin-left: 1%;
      }
-     .aboutme {margin-top: -70%;  
+     .aboutme {margin-top: -82%;  
      }
      .navigation-bar {margin-top: 1%;
         margin-right: -10%;
@@ -232,8 +232,7 @@ li {font-size: x-large;
      }
      .left {margin-left: 8%;
      }
-     .aboutme {margin-top: -50%;
-	       margin-right: 10%;
+     .aboutme {margin-top: -65%;
         
         
      }
@@ -262,5 +261,6 @@ li {font-size: x-large;
      .secondline {margin-top: 85%;
      }
  } 
+
 
 
