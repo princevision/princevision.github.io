@@ -52,7 +52,8 @@ img {
     background-color: #000000;
     margin-top: 75%;
 }
-.navigation-bar {float: left;
+.navigation-bar {float: right;
+	 margin-top: 10%;
     margin-left: 55%;
 
 }
