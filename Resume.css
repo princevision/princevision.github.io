@@ -1,0 +1,453 @@
+html ,body {
+	margin: 0;
+	font-family: arieal;
+    height: 100vh;
+    /*background-image: url("background.png");*/
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.bresume {background-image: url("background.png");
+}
+.bcollab {background-color: #bbbbb9;
+}
+.bacademic {background-image: url("background.png");
+}
+.bportfolio {background-color: #c4f101;
+   
+}
+.byoutube {background-color: #c4f101;
+}
+.bwork {background-image: url("background.png");
+}
+.navigation-bar {margin: 15px;
+}
+.list1, li, a {text-decoration: none;
+    color: #000000; 
+    list-style-type: none;
+    display: inline;
+    margin: 12px;
+    font-size: x-large;
+} 
+.list3 {margin: 25px;
+}
+.navigation-bar ul li a:hover{
+    color: #ff3231;
+}
+h1 {margin-left: 60px;
+    margin-top: 50px;
+}
+h2 {margin-left: 400px;
+    margin-top: -85px;
+}
+h3 {margin-left: 500px;
+    margin-top: -48px;
+}
+p {margin-left: 500px;
+    margin-top: 25px;
+}
+.company {margin-top: -18px;      
+}
+.year2021 {margin-left: 400px;
+    margin-top: 100px;
+}
+.videographer {margin-top: -43px;
+}
+.gfwc {margin-top: -18px;
+}
+.right {background-color: #c4f101;
+    height: 65%;
+    width: 69%;
+    float: right;
+}
+.left {background-color: #edf0f2;
+    height: 65%;
+    width: 31%;
+    float: left;
+}
+.skillsh1 {margin-left: px;
+    margin-top: 200px;
+}
+.list2 {margin: 100px;
+    margin-left: 70px;
+}
+.one {display: list-item;
+    list-style-type: disc;
+}
+.pvlogo {width: 91px;
+    height: 81px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.weather { margin-left: 70%;
+    margin-top: 100%;
+
+
+}
+.companypv {margin-left: 115px;
+    margin-top: -75px;
+}
+.fits {margin-top: -10px;
+    margin-left: 60px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.tshiks {margin-top: -50px;
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+#stream {background-color: #39b6ff;
+    height: 50px;
+    width: 250px;
+    margin-left: 45px;
+    margin-top: -15px;
+    border-radius: 25px;
+    border: 0;
+    font-weight: bold;
+}
+.culture {float: right;
+    height: 768px;
+    width: 700px;
+    border-radius: 300px;
+    margin-top: -600px;   
+}
+.pvcollab {float: right;
+    height: 700px;
+    margin-top: -160px;
+}
+.ch1 {font-size: 50px;
+}
+#message {background-color: #39b6ff;
+    height: 50px;
+    width: 180px;
+    margin-left: 95px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 0;
+    font-weight: bold;
+}
+.insta {width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 16% ;
+    margin-top: -50px ;
+}
+.twitter {width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 20%;
+    margin-top: -50px;
+}
+.linkedin {width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 24%;
+    margin-top: -55px;
+}
+.h2social {margin-left: 8%;
+    margin-top: 30%;     
+}
+.panini {
+    margin-left: 54%;
+}
+.title {float: right;
+    margin-left: 58px;
+    margin-top: 10px;
+}
+.david {margin-left: 2%;
+    margin-top: -20%;
+    
+}
+.videowork {margin-left: 60px;
+    margin-top: 30px;
+
+}
+.blockquote1 {margin-top: 2%;
+    margin-left: 4%;
+    width: 100px;
+    height: 100px;
+}
+.blockquote2 {margin-top: -8%;
+    margin-left: 35%;
+    width: 100px;
+    height: 100px;
+}
+.blockquote3 {margin-top: -8%;
+    margin-left: 65%;
+    width: 100px;
+    height: 100px;
+}
+.filmwork {margin-top: 40%;
+    padding-top: 3%;
+    margin-left: 60px;
+}
+.bottom {
+   height: 60%;
+   margin-top: -5%;  
+}
+.ba {font-size: large;
+    margin-top: 4%;
+}
+.schoolyear {margin-top: 1%;
+}
+.highschool {font-size: large;
+    margin-top: 4%;
+}
+.hsyear {margin-top: 1%;
+}
+.gk {font-size: large;
+    margin-top: -12%;
+}
+.tut {margin-top: 1%;
+}
+.together{text-align: center;
+    margin-top: 7%;
+}
+.connect {margin-left: -36%;
+    margin-top: 4%;
+}
+.connectsocial {margin-left: -36%;
+    margin-top: 20px; 
+    font-size: large; 
+    font-weight: bold;
+}
+.instasocial {margin-top: -1%;
+}
+.twittersocial {margin-top:-3%;
+}
+.linkedsocial {margin-top: -3%;
+}
+.email {margin-top: 5%;
+}
+.location {margin-top: -24.2%;
+    margin-left: 7.5%;
+}
+.joburg {margin-top: 3%;
+    margin-left: 46.5%;
+    font-size: large; 
+    font-weight: bold;
+}
+.venda {margin-left: 70%;
+    margin-top: -6.2%;
+    font-size: large; 
+    font-weight: bold;
+}
+ 
+/* Laptops */
+ @media only screen (min-width: 1200px) and (max-device-width: 1600px) {
+    }
+     .blockquote1 {margin-top: 5%;
+         margin-left: 4%;
+         width: 10px;
+         height: 10px;
+     }
+     .blockquote2 {
+        margin-top: -1.1%;
+         margin-left: 50%;
+         width: 10px;
+         height: 10px;
+     }
+     .blockquote3 {margin-top: 45%;
+         margin-left: 4%;
+         width: 10px;
+         height: 10px;
+     }
+     .filmwork {margin-top: 50%;
+         padding-top: 3%;
+         margin-left: 60px;
+     }
+     .panini {
+         margin-top: 10%;
+         margin-left: 5%;
+     }
+     .david {margin-top: 10%;
+         margin-left: 5%;
+     }
+     .pvcollab {
+         height: 500px;
+         width: 600px;
+         margin-top: -130px;
+     }
+     .h2social {margin-top: 20%;
+        margin-left: 10%;
+     }
+     .insta {width: 30px;
+         height: 30px;
+     float: left;
+     margin: 1%;
+     margin-left: 8%;
+ 
+     }
+     .twitter {width: 30px;
+         height: 30px;
+         float: left;
+         margin: 1%;
+     }
+     .linkedin {width: 40px;
+         height: 40px;
+         float: left;
+         margin: 1%;
+     }
+     .k {margin-left: 10%;
+     }
+     .h {margin-left: 10%;
+     }
+     .list34 {margin-left: 5%;
+     }
+     .list3 {text-align: center;
+        margin-left: -2%;
+     }
+     .list31 {margin-left: 20%;
+ 
+     }
+     .bacademic {background-image: url("background.png");
+         background-repeat: repeat;
+     }
+     .location {margin-top: 10%;
+        margin-left: -38%;
+     }
+     .joburg {margin-top: 3%;
+        margin-left: -20%;
+     }
+     .venda {margin-left: 25%;
+     }
+     .together {margin-left: 1%;
+     }
+     .connect {margin-left: -39.1%;
+     }
+     .connectsocial {margin-left: -39%;
+     }
+     .bwork {background-image: url("background.png");
+        text-align: center;
+         background-repeat: repeat;
+     }
+     .email {margin-left: 30%;
+     }
+     .bresume {background-image: url("background.png");
+         background-repeat: repeat;}
+
+
+     /* Phones */
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .blockquote1 {margin-top: 5%;
+        margin-left: 4%;
+        width: 10px;
+        height: 10px;
+    }
+    .blockquote2 {
+       margin-top: 135%;
+        margin-left: 4%;
+        width: 10px;
+        height: 10px;
+    }
+    .blockquote3 {margin-top: 135%;
+        margin-left: 4%;
+        width: 10px;
+        height: 10px;
+    }
+    .filmwork {margin-top: 135%;
+        padding-top: 3%;
+        margin-left: 60px;
+    }
+    .panini {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .david {margin-top: 10%;
+        margin-left: 5%;
+    }
+    .pvcollab {
+        height: 500px;
+        width: 550px;
+        margin-top: -130px;
+        margin-right: -15%;
+    }
+    .h2social {margin-top: 20%;
+       margin-left: 10%;
+    }
+    .insta {width: 30px;
+        height: 30px;
+    float: left;
+    margin: 1%;
+    margin-left: 8%;
+
+    }
+    .twitter {width: 30px;
+        height: 30px;
+        float: left;
+        margin: 1%;
+    }
+    .linkedin {width: 40px;
+        height: 40px;
+        float: left;
+        margin: 1%;
+    }
+    .right {background-color: #c4f101;
+        height: 100%;
+        width: 100%;
+    }
+    .k {margin-left: 40%;
+    }
+    .w {margin-left: 50%;
+    }
+    .u {margin-left: 48%;
+    }
+    .f{margin-left: 49%;
+    }
+    .p {margin-left: 43%;
+    }
+    .e {margin-left: 53%;
+    }
+    .h {margin-left: 40%;
+    }
+    .i {margin-left: 46%;
+    }
+    .y {margin-left: 48%;
+    }
+    .c {margin-left: 49%;
+    }
+    .a {margin-left: 45%;
+    }
+    .x {margin-left: 54%;
+    }
+    .list34 {margin-left: 5%;
+    }
+    .list3 {
+       margin-left: 19%;
+    }
+    .list34 {margin-left: 18%;
+
+    }
+    .bacademic {background-image: url("background.png");
+        background-repeat: repeat;
+    }
+    .location {margin-top: 10%;
+       margin-left: -115%;
+    }
+    .joburg {margin-top: 3%;
+       margin-left: 2%;
+    }
+    .venda {margin-top: 3%;
+        margin-left: 2%;
+    }
+    .together {margin-left: 1%;
+    }
+   .withus {margin-left: 30%;
+   }
+    .connectsocial {margin-left: -120%;
+    }
+    .bwork {background-image: url("background.png");
+       text-align: center;
+        background-repeat: repeat;
+    }
+    .email {margin-left: 58%;
+    }
+    .bresume {background-image: url("background.png");
+        background-repeat: repeat;
+    }
+}
