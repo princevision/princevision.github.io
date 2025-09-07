@@ -81,5 +81,160 @@ li {font-size: x-large;
     margin-top: 1%;
 }
 
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.home {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #fff; /* keep your background */
+  color: inherit;
+}
+
+/* Wrapper: desktop layout */
+.wrapper-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Left Section */
+.left {
+  flex: 1 1 300px;
+  text-align: left;
+}
+
+.life {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pvlogo {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Center Image */
+.rotman {
+  flex: 1 1 300px;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* Right Section */
+.rightkey {
+  flex: 1 1 300px;
+  text-align: left;
+  padding: 1rem;
+}
+
+.aboutme {
+  margin-bottom: 2rem;
+}
+
+.aboutme h2 {
+  margin-bottom: 0.5rem;
+}
+
+.aboutme p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.line, .secondline {
+  border: none;
+  height: 2px;
+  background: currentColor; /* keeps your color scheme */
+  margin: 0.5rem 0;
+}
+
+/* Navigation */
+.navigation-bar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation-bar li {
+  margin: 0.5rem 0;
+}
+
+.navigation-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit; /* keeps your text color */
+  transition: opacity 0.3s ease;
+}
+
+.navigation-bar a:hover {
+  opacity: 0.7;
+}
+
+/* Social icons */
+.socialhome {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.socialhome img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.socialhome img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .wrapper-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left, .rightkey {
+    text-align: center;
+  }
+
+  .life {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body.home {
+    padding: 1rem;
+  }
+
+  .life {
+    font-size: 1.6rem;
+  }
+
+  .aboutme p {
+    font-size: 0.95rem;
+  }
+
+  .pvlogo {
+    max-width: 90px;
+  }
+
+  .rotman {
+    max-width: 90%;
+  }
+
+  .socialhome {
+    justify-content: center;
+  }
+}
 
 
