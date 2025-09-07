@@ -789,13 +789,6 @@ li {font-size: x-large;
      }
  } 
 
-/* Reset and base */
-html, body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif; /* fixed typo "arieal" */
-  min-height: 100vh;
-  background-color: #c4f101; /* preserve your background */
-}
 
 a {
   text-decoration: none;
