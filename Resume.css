@@ -451,3 +451,69 @@ and (-webkit-min-device-pixel-ratio: 3) {
         background-repeat: repeat;
     }
 }
+
+/* Reset and base */
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #c4f101; /* preserve your background */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Wrapper and layout */
+.wrapper-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+/* Left Section */
+.left {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #edf0f2; /* keep original color */
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.life {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.pvlogo {
+    width: 91px;
+    height: 81px;
+    margin-top: 1rem;
+}
+
+/* Center Image */
+.rotman {
+    flex: 1 1 300px;
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Right Section */
+.rightkey {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #c4f10
+
